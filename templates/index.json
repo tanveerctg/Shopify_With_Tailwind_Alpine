@@ -16,18 +16,10 @@
     "3820d72f-a1be-439e-baaa-ea7031f9daf1": {
       "type": "collage",
       "blocks": {
-        "template--15497130803339__3820d72f-a1be-439e-baaa-ea7031f9daf1-167086648717bf4ffd-0": {
-          "type": "video",
-          "settings": {
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "description": "Describe the video",
-            "image_padding": false
-          }
-        },
         "template--15497130803339__3820d72f-a1be-439e-baaa-ea7031f9daf1-167086648717bf4ffd-1": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "led-stripe",
             "second_image": false
           }
         },
@@ -39,7 +31,6 @@
         }
       },
       "block_order": [
-        "template--15497130803339__3820d72f-a1be-439e-baaa-ea7031f9daf1-167086648717bf4ffd-0",
         "template--15497130803339__3820d72f-a1be-439e-baaa-ea7031f9daf1-167086648717bf4ffd-1",
         "template--15497130803339__3820d72f-a1be-439e-baaa-ea7031f9daf1-167086648717bf4ffd-2"
       ],

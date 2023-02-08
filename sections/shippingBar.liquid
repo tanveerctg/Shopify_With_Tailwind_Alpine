@@ -1,8 +1,30 @@
+Shipiing Bar
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "Shipping Bar",
+  "tag": "section",
+  "class": "shipping",
+  "settings": [
+    {
+      "type": "text",
+      "id": "shipping_content",
+      "label": "Shiping Content"
+    }
+  ],
+  "blocks": [
+     {
+       "name": "Slide",
+       "type": "slide",
+       "settings": [
+         {
+           "type": "image_picker",
+           "id": "image",
+           "label": "Image"
+         }
+       ]
+     }
+   ]
+}
 {% endschema %}
 
 {% stylesheet %}

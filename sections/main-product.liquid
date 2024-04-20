@@ -41,7 +41,7 @@
              <img src="{{ collection | img_url: '450x450' }}" alt="{{ collection.image.alt }}" />
            {{ collection.title }}</a>
     </div> 
-    {{ collection.image |image_tag | image_url: 'medium'}}
+    
   {% endfor %}
   <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.gallery_layout }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
     <div class="grid__item product__media-wrapper">

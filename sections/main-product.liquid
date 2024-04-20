@@ -37,7 +37,7 @@
  
 
   {% for collection in product.metafields.custom.locations.value %}
-    {{ collection.url}}
+
     <div><a href="{{ collection.url }}">{{ collection.title }}</a></div> 
   {% endfor %}
   <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.gallery_layout }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">

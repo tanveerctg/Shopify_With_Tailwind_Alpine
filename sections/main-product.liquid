@@ -38,7 +38,7 @@
 
   {% for collection in product.metafields.custom.locations.value %}
     <div><a href="{{ collection.url }}">
-            <img src="{{ collection.image.src }}" style="width:"20px;height:20px; alt="{{ collection.image.alt }}" />
+             <img src="{{ collection | img_url: '450x450' }}" alt="{{ collection.image.alt }}" />
            {{ collection.title }}</a>
     </div> 
     {{ collection.image |image_tag | image_url: 'medium'}}
